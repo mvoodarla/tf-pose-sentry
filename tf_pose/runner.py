@@ -2,7 +2,7 @@ import base64
 import os
 
 import cv2
-from repoze.lru import lru_cache
+from functools import lru_cache
 
 from tf_pose import common
 from tf_pose import eval
